@@ -9,7 +9,7 @@
         <div class="card-body">
           <div class="d-flex align-items-start align-items-sm-center gap-4">
             <img
-              src="assets/img/avatars/1.png"
+              src="{{#if user.imagePath}} {{user.imagePath}}{{else}}/assets/img/avatars/0.jpeg{{/if}}"
               alt="user-avatar"
               class="d-block rounded"
               height="100"
